@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E4C5968180ECBC5009F46F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C5967180ECBC5009F46F1 /* Cocoa.framework */; };
+		3E4C5972180ECBC5009F46F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C5970180ECBC5009F46F1 /* InfoPlist.strings */; };
+		3E4C5974180ECBC5009F46F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C5973180ECBC5009F46F1 /* main.m */; };
+		3E4C5978180ECBC5009F46F1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C5976180ECBC5009F46F1 /* Credits.rtf */; };
+		3E4C597B180ECBC5009F46F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C597A180ECBC5009F46F1 /* AppDelegate.m */; };
+		3E4C597E180ECBC5009F46F1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C597C180ECBC5009F46F1 /* MainMenu.xib */; };
+		3E4C5980180ECBC5009F46F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C597F180ECBC5009F46F1 /* Images.xcassets */; };
+		3E4C5987180ECBC5009F46F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C5986180ECBC5009F46F1 /* XCTest.framework */; };
+		3E4C5988180ECBC5009F46F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C5967180ECBC5009F46F1 /* Cocoa.framework */; };
+		3E4C5990180ECBC5009F46F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C598E180ECBC5009F46F1 /* InfoPlist.strings */; };
+		3E4C5992180ECBC5009F46F1 /* Forester_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C5991180ECBC5009F46F1 /* Forester_OSXTests.m */; };
+		3E4C599F180ED0C5009F46F1 /* Forest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C599C180ED0C5009F46F1 /* Forest.m */; };
+		3E4C59A0180ED0C5009F46F1 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C599E180ED0C5009F46F1 /* Owner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E4C5989180ECBC5009F46F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4C595C180ECBC5009F46F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E4C5963180ECBC5009F46F1;
+			remoteInfo = "Forester-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E4C5964180ECBC5009F46F1 /* Forester-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forester-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4C5967180ECBC5009F46F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3E4C596A180ECBC5009F46F1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3E4C596B180ECBC5009F46F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3E4C596C180ECBC5009F46F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E4C596F180ECBC5009F46F1 /* Forester-OSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Forester-OSX-Info.plist"; sourceTree = "<group>"; };
+		3E4C5971180ECBC5009F46F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E4C5973180ECBC5009F46F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E4C5975180ECBC5009F46F1 /* Forester-OSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Forester-OSX-Prefix.pch"; sourceTree = "<group>"; };
+		3E4C5977180ECBC5009F46F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3E4C5979180ECBC5009F46F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E4C597A180ECBC5009F46F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E4C597D180ECBC5009F46F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3E4C597F180ECBC5009F46F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E4C5985180ECBC5009F46F1 /* Forester-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forester-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4C5986180ECBC5009F46F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3E4C598D180ECBC5009F46F1 /* Forester-OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Forester-OSXTests-Info.plist"; sourceTree = "<group>"; };
+		3E4C598F180ECBC5009F46F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E4C5991180ECBC5009F46F1 /* Forester_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Forester_OSXTests.m; sourceTree = "<group>"; };
+		3E4C599B180ED0C5009F46F1 /* Forest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forest.h; sourceTree = "<group>"; };
+		3E4C599C180ED0C5009F46F1 /* Forest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forest.m; sourceTree = "<group>"; };
+		3E4C599D180ED0C5009F46F1 /* Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Owner.h; sourceTree = "<group>"; };
+		3E4C599E180ED0C5009F46F1 /* Owner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Owner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E4C5961180ECBC5009F46F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C5968180ECBC5009F46F1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C5982180ECBC5009F46F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C5988180ECBC5009F46F1 /* Cocoa.framework in Frameworks */,
+				3E4C5987180ECBC5009F46F1 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E4C595B180ECBC5009F46F1 = {
+			isa = PBXGroup;
+			children = (
+				3E4C596D180ECBC5009F46F1 /* Forester-OSX */,
+				3E4C598B180ECBC5009F46F1 /* Forester-OSXTests */,
+				3E4C5966180ECBC5009F46F1 /* Frameworks */,
+				3E4C5965180ECBC5009F46F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E4C5965180ECBC5009F46F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C5964180ECBC5009F46F1 /* Forester-OSX.app */,
+				3E4C5985180ECBC5009F46F1 /* Forester-OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E4C5966180ECBC5009F46F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C5967180ECBC5009F46F1 /* Cocoa.framework */,
+				3E4C5986180ECBC5009F46F1 /* XCTest.framework */,
+				3E4C5969180ECBC5009F46F1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E4C5969180ECBC5009F46F1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C596A180ECBC5009F46F1 /* AppKit.framework */,
+				3E4C596B180ECBC5009F46F1 /* CoreData.framework */,
+				3E4C596C180ECBC5009F46F1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3E4C596D180ECBC5009F46F1 /* Forester-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C599B180ED0C5009F46F1 /* Forest.h */,
+				3E4C599C180ED0C5009F46F1 /* Forest.m */,
+				3E4C599D180ED0C5009F46F1 /* Owner.h */,
+				3E4C599E180ED0C5009F46F1 /* Owner.m */,
+				3E4C5979180ECBC5009F46F1 /* AppDelegate.h */,
+				3E4C597A180ECBC5009F46F1 /* AppDelegate.m */,
+				3E4C597C180ECBC5009F46F1 /* MainMenu.xib */,
+				3E4C597F180ECBC5009F46F1 /* Images.xcassets */,
+				3E4C596E180ECBC5009F46F1 /* Supporting Files */,
+			);
+			path = "Forester-OSX";
+			sourceTree = "<group>";
+		};
+		3E4C596E180ECBC5009F46F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C596F180ECBC5009F46F1 /* Forester-OSX-Info.plist */,
+				3E4C5970180ECBC5009F46F1 /* InfoPlist.strings */,
+				3E4C5973180ECBC5009F46F1 /* main.m */,
+				3E4C5975180ECBC5009F46F1 /* Forester-OSX-Prefix.pch */,
+				3E4C5976180ECBC5009F46F1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E4C598B180ECBC5009F46F1 /* Forester-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C5991180ECBC5009F46F1 /* Forester_OSXTests.m */,
+				3E4C598C180ECBC5009F46F1 /* Supporting Files */,
+			);
+			path = "Forester-OSXTests";
+			sourceTree = "<group>";
+		};
+		3E4C598C180ECBC5009F46F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C598D180ECBC5009F46F1 /* Forester-OSXTests-Info.plist */,
+				3E4C598E180ECBC5009F46F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E4C5963180ECBC5009F46F1 /* Forester-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4C5995180ECBC5009F46F1 /* Build configuration list for PBXNativeTarget "Forester-OSX" */;
+			buildPhases = (
+				3E4C5960180ECBC5009F46F1 /* Sources */,
+				3E4C5961180ECBC5009F46F1 /* Frameworks */,
+				3E4C5962180ECBC5009F46F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forester-OSX";
+			productName = "Forester-OSX";
+			productReference = 3E4C5964180ECBC5009F46F1 /* Forester-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E4C5984180ECBC5009F46F1 /* Forester-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4C5998180ECBC5009F46F1 /* Build configuration list for PBXNativeTarget "Forester-OSXTests" */;
+			buildPhases = (
+				3E4C5981180ECBC5009F46F1 /* Sources */,
+				3E4C5982180ECBC5009F46F1 /* Frameworks */,
+				3E4C5983180ECBC5009F46F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4C598A180ECBC5009F46F1 /* PBXTargetDependency */,
+			);
+			name = "Forester-OSXTests";
+			productName = "Forester-OSXTests";
+			productReference = 3E4C5985180ECBC5009F46F1 /* Forester-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E4C595C180ECBC5009F46F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Christian Høj";
+				TargetAttributes = {
+					3E4C5984180ECBC5009F46F1 = {
+						TestTargetID = 3E4C5963180ECBC5009F46F1;
+					};
+				};
+			};
+			buildConfigurationList = 3E4C595F180ECBC5009F46F1 /* Build configuration list for PBXProject "Forester-OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E4C595B180ECBC5009F46F1;
+			productRefGroup = 3E4C5965180ECBC5009F46F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E4C5963180ECBC5009F46F1 /* Forester-OSX */,
+				3E4C5984180ECBC5009F46F1 /* Forester-OSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E4C5962180ECBC5009F46F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C5972180ECBC5009F46F1 /* InfoPlist.strings in Resources */,
+				3E4C5980180ECBC5009F46F1 /* Images.xcassets in Resources */,
+				3E4C5978180ECBC5009F46F1 /* Credits.rtf in Resources */,
+				3E4C597E180ECBC5009F46F1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C5983180ECBC5009F46F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C5990180ECBC5009F46F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E4C5960180ECBC5009F46F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C597B180ECBC5009F46F1 /* AppDelegate.m in Sources */,
+				3E4C59A0180ED0C5009F46F1 /* Owner.m in Sources */,
+				3E4C599F180ED0C5009F46F1 /* Forest.m in Sources */,
+				3E4C5974180ECBC5009F46F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C5981180ECBC5009F46F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C5992180ECBC5009F46F1 /* Forester_OSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E4C598A180ECBC5009F46F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E4C5963180ECBC5009F46F1 /* Forester-OSX */;
+			targetProxy = 3E4C5989180ECBC5009F46F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E4C5970180ECBC5009F46F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C5971180ECBC5009F46F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E4C5976180ECBC5009F46F1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C5977180ECBC5009F46F1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3E4C597C180ECBC5009F46F1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C597D180ECBC5009F46F1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3E4C598E180ECBC5009F46F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C598F180ECBC5009F46F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E4C5993180ECBC5009F46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E4C5994180ECBC5009F46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E4C5996180ECBC5009F46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester-OSX/Forester-OSX-Prefix.pch";
+				INFOPLIST_FILE = "Forester-OSX/Forester-OSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E4C5997180ECBC5009F46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester-OSX/Forester-OSX-Prefix.pch";
+				INFOPLIST_FILE = "Forester-OSX/Forester-OSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3E4C5999180ECBC5009F46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forester-OSX.app/Contents/MacOS/Forester-OSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester-OSX/Forester-OSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Forester-OSXTests/Forester-OSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3E4C599A180ECBC5009F46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forester-OSX.app/Contents/MacOS/Forester-OSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forester-OSX/Forester-OSX-Prefix.pch";
+				INFOPLIST_FILE = "Forester-OSXTests/Forester-OSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E4C595F180ECBC5009F46F1 /* Build configuration list for PBXProject "Forester-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C5993180ECBC5009F46F1 /* Debug */,
+				3E4C5994180ECBC5009F46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E4C5995180ECBC5009F46F1 /* Build configuration list for PBXNativeTarget "Forester-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C5996180ECBC5009F46F1 /* Debug */,
+				3E4C5997180ECBC5009F46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E4C5998180ECBC5009F46F1 /* Build configuration list for PBXNativeTarget "Forester-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C5999180ECBC5009F46F1 /* Debug */,
+				3E4C599A180ECBC5009F46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E4C595C180ECBC5009F46F1 /* Project object */;
+}
