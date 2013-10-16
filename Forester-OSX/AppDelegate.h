@@ -12,6 +12,11 @@
 
 @property (assign) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSTableView *forestTable;
+@property (weak) IBOutlet NSTextField *forestName;
+@property (weak) IBOutlet NSTextField *forestLocation;
+@property (weak) IBOutlet NSTextField *forestSize;
+@property (weak) IBOutlet NSTextField *forestPrice;
+@property (weak) IBOutlet NSTextField *forestValue;
 
 @property NSMutableArray *forests;
 
