@@ -31,7 +31,7 @@
 }
 
 
-#pragma mark - NSTableViewDataSource protocol methods
+#pragma mark - NSTableViewDelegate protocol methods
 
 - (void)tableViewSelectionDidChange:(NSNotification *)notification {
     NSLog(@"selection changed");
